@@ -1,3 +1,8 @@
+/*
+3)     investigue:
+número de archivos que pueden abrirse al mismo tiempo
+EN EL SISTEMA OPERATIVO QUE ESTA USANDO.
+*/
 #include <windows.h>
 #include <iostream>
 #include <fstream>
@@ -11,7 +16,7 @@ using namespace std;
 
 // Para calcular el numero pedido se intenta abrir archivos en bucle hasta que la operacion de apertura falle
 int main() {
-    const string FOLDERNAME = "files3"; 
+    const string FOLDERNAME = "files3";
 
     _mkdir(FOLDERNAME.c_str());
 
