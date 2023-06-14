@@ -8,7 +8,6 @@
 #include <cstdlib>
 using namespace std;
 
-
 int main() {
   ifstream enDatos("files1/enDatos.txt"), precios("files1/precios.txt"), boletos("files1/boletos.dat", ios::binary), experi("files1/experi.dat", ios::binary);
   
